@@ -1,0 +1,20 @@
+'PROGRAM: .
+'OBJECTIVE: .
+'PROGRAMMER: Yaowei Lei.
+'Date: 09/28/2021
+
+Global getINFO:Int
+Print
+Print
+getINFO = Int(Input("Enter 1 for a quick 'Hello', Enter 3 for repeat or 7 to exit program "))
+#PrintHelloAgain
+Select getINFO
+	Case 1
+		Print "Hello"
+	Case 3
+		Goto PrintHelloAgain
+	Case 7
+		Print "Exiting... "
+	Default
+		Print "   ...."
+End Selcet

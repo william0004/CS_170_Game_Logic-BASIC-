@@ -1,0 +1,16 @@
+'PROGRAM: for next loop
+'OBJECTIVE: 
+'PROGRAMMER: Yaowei Lei.
+'Date: 10/07/2021
+
+
+Global count:Int
+
+For count = 0 To 10
+	Print count
+Next
+
+
+For count = 10 To 0 Step -1
+	Print count
+Next
